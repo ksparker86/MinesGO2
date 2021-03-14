@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".start.startScreen"
+android:orientation="vertical"
+    >
+
+<Button
+    android:id="@+id/start_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintBottom_toTopOf="@+id/edit_character_button"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="1.0"
+    tools:layout_editor_absoluteX="0dp"
+    android:text="@string/start_button" />
+
+<Button
+    android:id="@+id/edit_character_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:layout_constraintBottom_toTopOf="@+id/settings_button"
+    tools:layout_editor_absoluteX="16dp"
+    android:text="@string/edit_character_button" />
+
+<Button
+    android:id="@+id/settings_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:layout_constraintBottom_toTopOf="@+id/exit_button"
+    tools:layout_editor_absoluteX="0dp"
+    android:text="@string/settings_button" />
+
+<Button
+    android:id="@+id/exit_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginBottom="260dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    tools:layout_editor_absoluteX="0dp"
+    android:text="@string/exit_button"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

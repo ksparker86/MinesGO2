@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/startScreen">
+    <fragment
+        android:id="@+id/startScreen"
+        android:name="com.mines_csci448.start.startScreen"
+        android:label="fragment_start_screen"
+        tools:layout="@layout/fragment_start_screen" >
+        <action
+            android:id="@+id/action_startScreen_to_editCharacterFragment3"
+            app:destination="@id/editCharacterFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/editCharacterFragment3"
+        android:name="com.mines_csci448.editCharacter.EditCharacterFragment"
+        android:label="fragment_edit_character"
+        tools:layout="@layout/fragment_edit_character" />
+</navigation>

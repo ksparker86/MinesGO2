@@ -1,0 +1,34 @@
+<resources>
+    <!--Main Entry Screen -->
+    <string name="app_name">MinesGO</string>
+    <string name="start_button">Start</string>
+    <string name="edit_character_button">Edit Character</string>
+    <string name="settings_button">Settings</string>
+    <string name="exit_button">Exit</string>
+
+    <!-- Character Edit Screen-->
+    <string name="character_title">Character: </string>
+    <string name="character_name_text">Name: </string>
+    <string name="character_health">Health: </string>
+    <string name="character_mana">Mana: </string>
+    <string name="character_strength">STR: </string>
+    <string name="character_defense">DEF: </string>
+    <string name="character_dexterity">DEX: </string>
+    <string name="character_focus">FOC: </string>
+    <string name="character_vitality">VIT: </string>
+    <string name="character_magic_resistance">MGR: </string>
+    <string name="character_upgrade_button">Upgrade Character</string>
+
+    <!--  Library Mini Game strings -->
+    <string name="library_tag">Library</string>
+    <string name="score_tag">Score: 00</string>
+    <string name="question">Question Goes Here</string>
+    <string name="ans_a">A - answer</string>
+    <string name="ans_b">B - answer</string>
+    <string name="ans_c">C - answer</string>
+    <string name="ans_d">D - answer</string>
+
+    <!-- Coolbaugh Mini Game strings -->
+    <string name="riddle">Riddle Goes Here</string>
+    <string name="coolbaugh_tag">Coolbaugh</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:layout_marginLeft="50sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginBottom="50sp"
+            android:padding="50sp"
+            android:background="@drawable/scroll"
+            android:text="@string/riddle"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/blue_beaker"
+                android:layout_marginStart="30dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/yellow_beaker" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/purple_beaker"
+                android:layout_marginStart="3dp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/green_beaker"
+                android:layout_marginStart="3dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginStart="25sp"
+            android:layout_marginLeft="25sp"
+            android:text="@string/coolbaugh_tag" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginStart="450sp"
+            android:text="@string/score_tag"
+            android:layout_marginLeft="450sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
